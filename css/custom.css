@@ -1,0 +1,53 @@
+/* Required for full background image */
+html,
+/* body, */
+/* header, */
+.view {
+  height: 100%;
+
+  }
+
+body {
+  /* The image used */
+  background-image: url("../static/img/backscreen.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: scroll; */
+
+}
+
+h2, h3 {
+
+color:#228B22;
+text-align:center;
+margin-top: 10em;
+margin-bottom: 1em;
+height:2em
+
+}
+
+.logo {
+
+float: right;
+
+}
+
+
+.centrer {
+    height: 600px;
+
+/* utilisation de flexbox */
+display: flex;
+
+/* centrer verticalement */
+align-items: center;
+
+/* centrer horizontalement */
+ justify-content: center;
+}
